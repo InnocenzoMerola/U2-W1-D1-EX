@@ -273,6 +273,26 @@ footer a {
 }
 
 @media screen and (min-width: 768px) {
+  article h1 {
+    font-size: 7rem;
+  }
+
+  p,
+  article ul,
+  ol {
+    font-size: 16px;
+  }
+
+  article h2 {
+    font-size: 20px;
+  }
+
+  section p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   body {
     padding: 20px 100px;
   }
@@ -302,8 +322,7 @@ footer a {
   nav {
     vertical-align: top;
     padding-block: 20px;
-
-    margin-left: 250px;
+    float: inline-end;
     font-size: 15px;
   }
   header a {
@@ -312,5 +331,67 @@ footer a {
 
   main {
     padding: 1em 2em;
+  }
+
+  article h1 {
+    font-size: 48px;
+  }
+
+  p,
+  article ul,
+  ol {
+    font-size: 16px;
+  }
+
+  article h2 {
+    font-size: 19px;
+  }
+
+  iframe {
+    width: 50%;
+    margin-bottom: 2em;
+    border-radius: 20px;
+    display: inline-block;
+    height: 41vh;
+    vertical-align: bottom;
+    height: 250px;
+  }
+
+  section {
+    padding: 20px 15px;
+
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 0;
+  }
+  article h2 {
+    padding-block: 5px;
+  }
+
+  section p {
+    font-size: 16px;
+    margin-block: 25px;
+    line-height: 35px;
+  }
+
+  #user_email {
+    padding: 15px 160px 15px 12px;
+  }
+
+  aside div {
+    display: inline-block;
+    width: 33%;
+    margin-inline: -2px;
+  }
+
+  aside p {
+    margin-top: 5px;
+  }
+
+  address {
+    padding-inline: 115px;
   }
 }
