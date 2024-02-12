@@ -395,3 +395,17 @@ footer a {
     padding-inline: 115px;
   }
 }
+
+@media screen and (min-width: 1800px) {
+  article h1 {
+    font-size: 57px;
+  }
+  p,
+  article ul,
+  ol {
+    font-size: 18px;
+  }
+  address {
+    padding-inline: 198px;
+  }
+}
